@@ -1,5 +1,5 @@
 # expertease
-This is the [MVP]() of the platform Expert-Ease: a [Telegram bot] that connects users of [Wordpress]() to experts that help them in real time. :nerd_face:
+This is the [MVP]() of the platform Expert-Ease: a [Telegram bot](https://core.telegram.org/bots) that connects users of [Wordpress](https://wordpress.org/) to experts that help them in real time. :nerd_face:
 The full story of how this venture came to life can be found [here]().
 
 ## Table of contents:
@@ -7,7 +7,7 @@ The full story of how this venture came to life can be found [here]().
  - [Techy details](#techy-details)
  
  ## Introduction
- Users of many different [SAAS]() products and services have a hard time figuring out things on their own while using them for the first few times.
+ Users of many different [SAAS](https://en.wikipedia.org/wiki/Software_as_a_service) products and services have a hard time figuring out things on their own while using them for the first few times.
  Me and my team have seen this happen with multiple such products while researching the market, and have decided to focus on Wordpress, since the user base is large and the
  platform can be intimidating to new (or even intermediate) users.
  During the research, we have conducted a survey with a little over a hundred participants, including professional web developers and influencers in
