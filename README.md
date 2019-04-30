@@ -4,7 +4,7 @@ The full story of how this venture came to life will soon be published on my [me
 
 ## Table of contents:
  - [Introduction](#introduction)
- - [Why Telegram?](#why-telegram?)
+ - [Why Telegram?](#why-telegram)
  - [Techy details](#techy-details)
  
  ## Introduction
@@ -37,3 +37,4 @@ The project ran (and still runs...) on a cloud service; in my case, [Heroku](htt
 - [*logging*](https://docs.python.org/3/library/logging.html) from the standard library. Since the application runs on the cloud constantly, it sometimes needs supervice. That's where the logger comes in: it allowed me to keep track of requests coming to the bot at all times, and catching errors allowed me to interact with the users directly in ease in order to fix immediate issues if necessary. This was all possible thanks to many logging statements, which can be time-consuming to implement but have the potential to save a huge headache later on. :relaxed:
 - [*urllib*](https://docs.python.org/3/library/urllib.html) from the standard library, which was used with [psycopg2](https://www.google.com/search?q=psycopg2&oq=psycopg2&aqs=chrome..69i57j35i39l2j0l3.562j0j4&sourceid=chrome&ie=UTF-8). Those were used mainly to integrate with the PostgreSQL database on the cloud.
 - [*telegram.ext*](https://python-telegram-bot.readthedocs.io/en/stable/telegram.ext.html) from the [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) wrapper. This was used to interact with [Telegram's API](https://core.telegram.org/) indirectly.
+- [*queue*](https://docs.python.org/3/library/queue.html) from the standard library. It was used to manage all incoming issues by users of the platform, to be handled by expert users in an orderly fashion. I used the synchronized queue for my implementation, as the bot works as a server (in some manner); it receives messages (aka requests) from different users and responds to them. The queue is one of the resources shared between all users of the program; thus it was implemented with [concurrency](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) in mind.
