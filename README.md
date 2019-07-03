@@ -1,6 +1,6 @@
 # expertease
 This is the [MVP]() of the platform Expert-Ease: a [Telegram](https://en.wikipedia.org/wiki/Telegram_(software)) [bot](https://core.telegram.org/bots) that connects users of [Wordpress](https://wordpress.org/) to experts that help them in real time. :nerd_face:
-The full story of how this venture came to life will soon be published on my [medium](https://medium.com/) page.
+The full story of how this venture came to life will is now published on [Medium](https://medium.com/@giladtsehori/storytime-from-idea-to-mvp-in-three-weeks-90699263be42)! Check it out.
 
 ## Table of contents:
  - [Introduction](#introduction)
